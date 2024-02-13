@@ -1,9 +1,11 @@
-import React from 'react'
+import Game from "./components/Game";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="bg-slate-400 flex h-screen justify-center items-center">
+      <Game />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
